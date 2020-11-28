@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &284910373654329507
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 284910373654329504}
+  - component: {fileID: 284910373654329510}
+  - component: {fileID: 284910373654329505}
+  - component: {fileID: 284910373654329511}
+  m_Layer: 5
+  m_Name: FundoNebulosa
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &284910373654329504
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 284910373654329507}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0.9915612, y: 1}
+  m_AnchoredPosition: {x: 4, y: 0}
+  m_SizeDelta: {x: 8, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &284910373654329510
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 284910373654329507}
+  m_CullTransparentMesh: 0
+--- !u!114 &284910373654329505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 284910373654329507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -98529514, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Texture: {fileID: 0}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!114 &284910373654329511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 284910373654329507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a342bb1082204874abb3cc931f938947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frames:
+  - {fileID: 2800000, guid: 21bb8f7beed8357439b45a46baff8c0b, type: 3}
+  - {fileID: 2800000, guid: b3cbb5c1c1357824bb5f0d5b6aebbac6, type: 3}
+  - {fileID: 2800000, guid: ead0c72423d9e6e4f8bcc53bc96a92e9, type: 3}
+  - {fileID: 2800000, guid: ca2173aa9df6d714bae6100f638dfd17, type: 3}
+  - {fileID: 2800000, guid: 1d68157af0b618d4b956444b800d11e1, type: 3}
+  - {fileID: 2800000, guid: 6d40961300389b4458453a42075c9966, type: 3}
+  - {fileID: 2800000, guid: 55e0bc600f65ac34c864f485c47128e9, type: 3}
+  - {fileID: 2800000, guid: fa58cacf7e8542343bbca2baebb7571e, type: 3}
+  - {fileID: 2800000, guid: 1e37c791319193945a237be4f76fd941, type: 3}
+  - {fileID: 2800000, guid: 44322b880c657e54fa69fc6af2027e38, type: 3}
+  - {fileID: 2800000, guid: 35c57dc06ff926b47b2eb87f756c4ee5, type: 3}
+  - {fileID: 2800000, guid: 441f942c9daebb44c99fe8abcbf6fe1c, type: 3}
+  - {fileID: 2800000, guid: 38b6950087ea220439fcac80337d8c9a, type: 3}
+  - {fileID: 2800000, guid: 305673f36911d004291d9878e7b2f30e, type: 3}
+  - {fileID: 2800000, guid: 9a698d54ece54da40ad2549cd6c3d066, type: 3}
+  - {fileID: 2800000, guid: 2896064fd7bfed6469176d23aeee2bda, type: 3}
+  - {fileID: 2800000, guid: 7c036c06e3afdb74fb8891c1e3e09608, type: 3}
+  - {fileID: 2800000, guid: 8e2f80efea6a095449812fea58ebaeab, type: 3}
+  - {fileID: 2800000, guid: 3d3b3bbab7f780a4ebde20bcb19e42e7, type: 3}
+  - {fileID: 2800000, guid: b908e406b7b282e4b9356fd64fc67f66, type: 3}
+  - {fileID: 2800000, guid: ed364443f277b0c4cbc7117020c0fd25, type: 3}
+  - {fileID: 2800000, guid: 007f7242c8edbad4d9aa7f586a71b656, type: 3}
+  - {fileID: 2800000, guid: 36f351f43485180498252e3ca2cc3455, type: 3}
+  - {fileID: 2800000, guid: ebcbf6d3974871c46abcd4a5f4101a5e, type: 3}
+  - {fileID: 2800000, guid: 885a08d325fd12f45bfcedf3939b7605, type: 3}
+  - {fileID: 2800000, guid: 82c14131746d47f4ab718ecbae057617, type: 3}
+  - {fileID: 2800000, guid: 2a5f4a7e48c9915479a363d621b2d6e9, type: 3}
+  - {fileID: 2800000, guid: 33078dac41f4f4549ba7935575e7ce42, type: 3}
+  - {fileID: 2800000, guid: 3547b1be129f7454ea7518ea6308d376, type: 3}
+  - {fileID: 2800000, guid: f850597cf080dcc49bc842b4c36ec973, type: 3}
+  - {fileID: 2800000, guid: a5eadfb0811fad446a23f37d3f355ed2, type: 3}
+  - {fileID: 2800000, guid: 6846348a0cc17a54183feb0ddaf392af, type: 3}
+  - {fileID: 2800000, guid: 814294c8b8dd22043ac8c535a48d62cc, type: 3}
+  - {fileID: 2800000, guid: 3a13cac644ab2ae44844deb408a73d52, type: 3}
+  - {fileID: 2800000, guid: 2ae04c8fec5639f4285d62c29b9d053b, type: 3}
+  - {fileID: 2800000, guid: 6a306ae7a8cc4c0429c2c326fb358a44, type: 3}
+  - {fileID: 2800000, guid: 4b41e660bbaefd34483ef3bc95f36fda, type: 3}
+  - {fileID: 2800000, guid: 3608bbaa66a2b7d4a951a4911d609dca, type: 3}
+  fps: 10
